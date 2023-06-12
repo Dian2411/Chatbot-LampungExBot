@@ -1,0 +1,265 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses": [
+                "Hai! ini LampungExBot. Kami akan memberikan informasi terkait pariwisata yang ada di lampung, alamatnya di Lampung, dan harga tiket masuknya.\n jadi, mau pergi ke wisata mana?\n1. Kabupaten Lampung Selatan\n2. Kabupaten Lampung Barat\n3. Kabupaten Lampung Tengah\n4. Kabupaten Lampung Timur\n5. Kabupaten Lampung Utara\n6. Kota Bandar Lampung\n7. Kota Metro\n8. Kabupaten Mesuji\n9. Kabupaten Pesawaran\n10. Kabupaten Pesisir Barat\n11. Kabupaten Prignsewu\n12. Kabupaten Tanggamus\n13. Kabupaten Tulang Bawang\n14. Kabupaten Tulang Bawang Barat\n15. Kabupaten Way Kanan\n16. Kota Liwa\n17. Kota Gunung Sugih\n18. Kabuapaten Way Lima\n19. Kabupaten Metro"
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Lampung_Barat",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Lampung Barat",
+                "Saya mau pergi ke Kabupaten Lampung Barat",
+                "Gua mau pergi ke Kabupaten Lampung Barat",
+                "Kabupaten Lampung Barat"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Lampung Barat adalah Pantai Pahawang dan Taman Nasional Bukit Barisan Selatan,\n a. Pantai Pahawang - Kecamatan Punduh Pidada, Pulau Pahawang, Lampung Barat. Harga masuk bervariasi tergantung paket wisata yang dipilih.\nb. Taman Nasional Bukit Barisan Selatan - Kabupaten Lampung Barat. Harga masuk sekitar Rp 5.000 - Rp 10.000 per orang "
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Lampung_Selatan",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Lampung Selatan",
+                "Saya mau pergi ke Kabupaten Lampung Selatan",
+                "Gua mau pergi ke Kabupaten Lampung Selatan",
+                "Kabupaten Lampung Selatan"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Lampung selatan adalah Pantai Kiluan dan Pahawang Island,\n a. Pantai Kiluan - Desa Kiluan Negeri, Kabupaten Lampung Selatan. Harga masuk sekitar Rp 10.000 - Rp 20.000 per orang.\nb. Pahawang Island - Kabupaten Lampung Selatan. Harga masuk sekitar Rp 10.000 - Rp 20.000 per orang. "
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Lampung_Tengah",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Lampung Tengah",
+                "Saya mau pergi ke Kabupaten Lampung Tengah",
+                "Gua mau pergi ke Kabupaten Lampung Tengah",
+                "Kabupaten Lampung Tengah"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Lampung Tengah adalah Pemandian Air Panas Way Ratai dan Wisata Alam Raja Basa,\n a. Pemandian Air Panas Way Ratai - Desa Way Ratai, Lampung Tengah. Harga masuk sekitar Rp 5.000 per orang.\nb. Wisata Alam Raja Basa - Desa Raja Basa, Lampung Tengah. Harga masuk sekitar Rp 10.000 per orang. "
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Lampung_Timur",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Lampung Timur",
+                "Saya mau pergi ke Kabupaten Lampung Timur",
+                "Gua mau pergi ke Kabupaten Lampung Timur",
+                "Kabupaten Lampung Timur"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Lampung Timur adalah Pantai Mutun dan Taman Wisata Air Terjun Way Haru,\n a. Pantai Mutun - Desa Pardasuka, Lampung Timur. Harga masuk sekitar Rp 10.000 per orang.\nb. Taman Wisata Air Terjun Way Haru - Desa Padang Cermin, Lampung Timur. Harga masuk sekitar Rp 5.000 per orang. "
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Lampung_Utara",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Lampung Utara",
+                "Saya mau pergi ke Kabupaten Lampung Utara",
+                "Gua mau pergi ke Kabupaten Lampung Utara",
+                "Kabupaten Lampung Utara"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Lampung Utara adalah Pantai Pasir Putih Pahawang  dan  Taman Nasional Way Kambas,\n a. Pantai Pasir Putih Pahawang - Desa Pahawang, Lampung Utara. Harga masuk sekitar Rp 5.000 - Rp 10.000 per orang.\nb. Taman Nasional Way Kambas - Desa Labuhan Ratu, Lampung Utara. Harga masuk sekitar Rp 10.000 per orang. "
+            ]
+        },
+        {
+            "tag": "deskripsi_Kota_Bandar_Lampung",
+            "patterns": [
+                "Aku mau pergi ke Kota Bandar Lampung",
+                "Saya mau pergi ke Kota Bandar Lampung",
+                "Gua mau pergi ke Kota Bandar Lampung",
+                "Kabupaten Kota Bandar Lampung"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kota Bandar Lampung adalah  Taman Wisata Lembah Hijau  dan   Pantai Sari Ringgung,\n a. Taman Wisata Lembah Hijau - Jalan Lintas Barat Sumatera, Bandar Lampung. Harga masuk sekitar Rp 5.000 - Rp 10.000 per orang.\nb. Pantai Sari Ringgung - Jalan Lintas Barat Sumatera, Bandar Lampung. Harga masuk sekitar Rp 5.000 per orang. "
+            ]
+        },
+        {
+            "tag": "deskripsi_Kota_Metro",
+            "patterns": [
+                "Aku mau pergi ke Kota Metro",
+                "Saya mau pergi ke Kota Metro",
+                "Gua mau pergi ke Kota Metro",
+                "Kabupaten Kota Metro"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kota Metro adalah  Air Terjun Curug Pekurun  dan   Taman Flora dan Fauna,\n a. Air Terjun Curug Pekurun - Desa Kedondong, Metro. Harga masuk sekitar Rp 5.000 per orang.\nb. Taman Flora dan Fauna - Desa Way Laga, Metro. Harga masuk sekitar Rp 10.000 per orang. "
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Mesuji",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Mesuji",
+                "Saya mau pergi ke Kabupaten Mesuji",
+                "Gua mau pergi ke Kabupaten Mesuji",
+                "Kabupaten Mesuji"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Lampung Mesuji adalah Bukit Sakalayang dan  Air Terjun Putri Malu,\n a. Bukit Sakalayang - Desa Sakalayang, Mesuji. Harga masuk gratis.\nb. Air Terjun Putri Malu - Desa Way Limau, Mesuji. Harga masuk sekitar Rp 5.000 per orang."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Pesawaran",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Pesawaran",
+                "Saya mau pergi ke Kabupaten Pesawaran",
+                "Gua mau pergi ke Kabupaten Pesawaran",
+                "Kabupaten Pesawaran"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Pesawaran adalah Pantai Klara dan  Kebun Buah Naga,\n a. Pantai Klara - Desa Kalianda, Pesawaran. Harga masuk sekitar Rp 5.000 per orang.\nb. Kebun Buah Naga - Desa Marga Sari, Pesawaran. Harga masuk sekitar Rp 5.000 per orang."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Pesisir_Barat",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Pesisir Barat",
+                "Saya mau pergi ke Kabupaten Pesisir Barat",
+                "Gua mau pergi ke Kabupaten Pesisir Barat",
+                "Kabupaten Pesisir Barat"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Pesisir Barat adalah  Pantai Tanjung Setia dan  Taman Nasional Bukit Barisan Selatan,\n a. Pantai Tanjung Setia - Desa Tanjung Setia, Pesisir Barat. Harga masuk sekitar Rp 10.000 per orang.\nb. Taman Nasional Bukit Barisan Selatan - Pesisir Barat. Harga masuk sekitar Rp 5.000 - Rp 10.000 per orang."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Pringsewu",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Pringsewu",
+                "Saya mau pergi ke Kabupaten Pringsewu",
+                "Gua mau pergi ke Kabupaten Pringsewu",
+                "Kabupaten Pringsewu"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Pringsewu adalah  Taman Hutan Raya Wan Abdul Rachman dan  Pantai Pugung Raharjo,\n a. Taman Hutan Raya Wan Abdul Rachman - Pringsewu. Harga masuk sekitar Rp 5.000 per orang.\nb. Pantai Pugung Raharjo - Desa Pugung Raharjo, Pringsewu. Harga masuk sekitar Rp 5.000 per orang."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Tanggamus",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Tanggamus",
+                "Saya mau pergi ke Kabupaten Tanggamus",
+                "Gua mau pergi ke Kabupaten Tanggamus",
+                "Kabupaten Tanggamus"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Tanggamus adalah Pantai Pasir Putih Kiluan dan  Gunung Seminung,\n a. Pantai Pasir Putih Kiluan - Desa Kiluan Negeri, Tanggamus. Harga masuk sekitar Rp 10.000 per orang.\nb. Gunung Seminung - Tanggamus. Harga masuk gratis."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Tulang_Bawang",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Tulang Bawang",
+                "Saya mau pergi ke Kabupaten Tulang Bawang",
+                "Gua mau pergi ke Kabupaten Tulang Bawang",
+                "Kabupaten Tulang Bawang"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Tulang Bawang adalah Curup Gangsa dan Air Terjun Way Kambas,\n a. Curup Gangsa - Desa Gunung Agung, Tulang Bawang. Harga masuk sekitar Rp 5.000 per orang.\nb. Air Terjun Way Kambas - Tulang Bawang. Harga masuk sekitar Rp 5.000 per orang."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Tulang_Bawang_Barat",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Tulang Bawang Barat",
+                "Saya mau pergi ke Kabupaten Tulang Bawang Barat",
+                "Gua mau pergi ke Kabupaten Tulang Bawang Barat",
+                "Kabupaten Tulang Bawang Barat"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Tulang Bawang Barat adalah Pantai Tanjung Setia dan Air Terjun Citambur,\n a. Pantai Tanjung Setia - Desa Tanjung Setia, Tulang Bawang Barat. Harga masuk sekitar Rp 10.000 per orang.\nb. Air Terjun Citambur - Desa Citambur, Tulang Bawang Barat. Harga masuk sekitar Rp 5.000 per orang."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Way Kanan",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Tulang Way Kanan",
+                "Saya mau pergi ke Kabupaten Tulang Way Kanan",
+                "Gua mau pergi ke Kabupaten Tulang Way Kanan",
+                "Kabupaten Tulang Way Kanan"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Way Kanan adalah Pantai Kalianda dan Kawah Putih Pongkor,\n a. Pantai Kalianda - Desa Kalianda, Way Kanan. Harga masuk sekitar Rp 5.000 per orang.\nb. Kawah Putih Pongkor - Way Kanan. Harga masuk sekitar Rp 5.000 per orang."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kota_Liwa",
+            "patterns": [
+                "Aku mau pergi ke Kota Liwa",
+                "Saya mau pergi ke Kota Liwa",
+                "Gua mau pergi ke Kota Liwa",
+                "Kabupaten Kota Liwa"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kota Liwa adalah  Air Terjun Tirta Mas dan Taman Wisata Alam Hijau,\n a. Air Terjun Tirta Mas - Liwa. Harga masuk sekitar Rp 5.000 per orang.\nb. Taman Wisata Alam Hijau - Liwa. Harga masuk sekitar Rp 5.000 per orang. "
+            ]
+        },
+        {
+            "tag": "deskripsi_Kota_Guning_Sugih",
+            "patterns": [
+                "Aku mau pergi ke Kota Gunung Sugih",
+                "Saya mau pergi ke Kota Gunung Sugih",
+                "Gua mau pergi ke Kota Gunung Sugih",
+                "Kabupaten Kota Gunung Sugih"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kota Gunung Sugih adalah  Air Terjun Tanggung dan Taman Wisata Alam Jelma,\n a. Air Terjun Tanggung - Gunung Sugih. Harga masuk sekitar Rp 5.000 per orang.\nb. Taman Wisata Alam Jelma - Gunung Sugih. Harga masuk sekitar Rp 10.000 per orang."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten_Way_Lima",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Tulang Way Lima",
+                "Saya mau pergi ke Kabupaten Tulang Way Lima",
+                "Gua mau pergi ke Kabupaten Tulang Way Lima",
+                "Kabupaten Tulang Way Lima"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Way Lima adalah Pantai Kiluan Bay dan Pemandian Air Panas Way Lima,\n a. Pantai Kiluan Bay - Desa Kiluan Bay, Way Lima. Harga masuk sekitar Rp 10.000 per orang.\nb. Pemandian Air Panas Way Lima - Desa Gisting, Way Lima. Harga masuk sekitar Rp 5.000 per orang."
+            ]
+        },
+        {
+            "tag": "deskripsi_Kabupaten Metro",
+            "patterns": [
+                "Aku mau pergi ke Kabupaten Metro",
+                "Saya mau pergi ke Kabupaten Metro",
+                "Gua mau pergi ke Kabupaten Metro",
+                "Kabupaten Kabupaten Metro"
+            ],
+            "responses": [
+                "Baiklah, rekomendasi objek wisata yang ada di Kabupaten Metro adalah Danau Ranau dan Taman Hutan Raya Metro,\n a. Danau Ranau - Metro. Harga masuk sekitar Rp 5.000 per orang.\nb. Taman Hutan Raya Metro - Metro. Harga masuk sekitar Rp 5.000 per orang."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "thankyou",
+                "thank you"
+            ],
+            "responses": [
+                "Selamat berlibur! Sampai jumpa lagi! TEST!"
+            ]
+        }
+    ]
+}
